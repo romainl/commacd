@@ -1,3 +1,7 @@
+# The purpose of this fork was only to silence `cd`. Nothing more, nothing less.
+
+---
+
 # commacd [![Build Status](https://travis-ci.org/shyiko/commacd.svg)](https://travis-ci.org/shyiko/commacd)
 
 A faster way to move around (Bash 3+).
