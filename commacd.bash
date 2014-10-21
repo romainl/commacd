@@ -19,7 +19,7 @@ _commacd_expand() ( shopt -s extglob nullglob; local ex=($1); printf "%s\n" "${e
 _command_cd() {
   local dir=$1
   if [[ -z "$COMMACD_CD" ]]; then
-    builtin cd "$dir" && pwd
+    builtin cd "$dir" > /dev/null
   else
     $COMMACD_CD "$dir"
   fi
